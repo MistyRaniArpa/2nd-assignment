@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+
+}
+
+.heading-one{
+background-color: rgb(31, 31, 133);
+padding: 5%;
+
+}
+.header-main{
+display: flex;
+
+}
+.heading-title{
+    color: white;
+    font-size: 35px;
+    width: 60%;
+    padding-left: 5%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    
+}
+.watch{
+margin: 5%;
+padding-left: 10%;
+}
+.button{
+    background-color: rgb(218, 48, 90);
+font-size: 20px;
+width: 35%;
+padding: 10px;
+
+}
+.fa-long-arrow-alt-right{
+color: white;
+padding-left: 10px;
+
+}
+.button:hover{
+    transform: scale(1.1) rotate(360deg);
+transition: transform 1.5s;
+}
+
+.heading-image img{
+width: 50%;
+padding-left: 35%;
+}
+
+.game-Players{
+    margin-top: 5%;
+    
+    
+}
+.palyers{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+}
+
+
+
+.team-1 {
+
+    box-shadow: 2px 2px 2px gray,
+    -2px -2px 2px gray;
+    background: white;
+    padding-bottom: 20px;
+  }
+  .team-1 .container{
+      padding-top: 20px;
+  }
+  .player-image img{
+
+width: 100%;
+
+  }
+  .container {
+      
+    padding: 2px 16px;
+  }
+  .palyers{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 2%;
+
+  }
+
+  .highlights{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .para{
+      padding-top: 13%;
+      margin-left: 20%;
+justify-content: center;
+
+  }
+  .text{
+      font-weight: bold;
+      font-size: 35px;
+      
+  }
+  .para p{
+font-size: 20px;
+padding-bottom: 30px;
+
+  }
+
+  .ano-button{
+
+    background-color: rgb(218, 48, 90);
+    font-size: 20px;
+    width: 35%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+   
+
+  }
+  .fa-long-arrow-alt-right{
+    color: white;
+    padding-left: 10px;
+    
+    }
+
+    .ano-button:hover{
+        transform: scale(1.1) rotate(360deg);
+    transition: transform 1.5s;
+    }
