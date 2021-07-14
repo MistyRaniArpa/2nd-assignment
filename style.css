@@ -162,9 +162,26 @@ margin-left: 30%;
                         
                     }
                     .palyers{
-                        
+                       
                         grid-template-columns: repeat(1, 1fr);
+          
                     }
+
+                    .last-section{
+                        width: 100%;
+                    }
+
+
+
+.highlights{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.football{
+    display: none;
+}
+
+
                 }
                 
                
